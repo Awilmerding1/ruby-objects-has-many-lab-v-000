@@ -8,5 +8,6 @@ end
 
 def posts
   @posts 
+end
 
 end
