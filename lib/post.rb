@@ -7,7 +7,7 @@ end
 
 def author_name
   if @author != nil
-    @author = self.author_name
+    @author = self.author
 else
   nil
 end
