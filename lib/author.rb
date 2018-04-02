@@ -10,10 +10,9 @@ def posts
   @posts
 end
 
-def add_post(title)
-  @title = title
-  @posts << title
-  title.author = self
+def add_post(post)
+  @posts << post
+  post.author = self
 end
 
 def add_post_by_title(title)
