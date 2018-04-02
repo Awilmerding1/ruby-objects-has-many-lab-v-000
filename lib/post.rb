@@ -6,7 +6,7 @@ def initialize(title)
 end
 
 def author_name
-  if author != nil
+  if @author != nil
     @author = self.author.name
 else
   nil
