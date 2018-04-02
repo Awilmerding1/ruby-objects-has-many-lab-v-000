@@ -19,7 +19,7 @@ end
 def add_post_by_title(title)
   post = Author.new(title)
   @posts << post
-  post.name = self
+  post.title = self
 
 end
 
