@@ -25,10 +25,8 @@ def add_song_by_name(name)
 	end
 
 def self.song_count
-if add_song(song) || add_song_by_name(name)
-  @song = song
-  @name = name
-@@song_count += 1
+
+@@song_count
 end
 end
 
