@@ -18,7 +18,12 @@ def add_post(post)
   @@post_count += 1
 end
 
-
+def add_post_by_title(name)
+  post = Author.new(name)
+  	@posts << post
+	post.author = self
+  @@post_count += 1
+	end
 
 def self.post_count
   @@post_count
